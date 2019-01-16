@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "description": "Visualizing date from an arduino with NodeJS",
+  "keywords": [
+    "arduino",
+    "iot",
+    "node"
+  ],
   "repository": "https://github.com/adriandarian/arduinoVisualizer.git",
   "license": "MIT",
   "author": "Adrian Darian",
   "main": "index.js",
+  "scripts": {
+    "server-start": "node server.js",
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
