@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+# lock files
+yarn.lock
+package-lock.json
+server/yarn.lock
+server/package-lock.json
+client/yarn.lock
+client/package-lock.json
+
+# vscode settings
+.vscode/
