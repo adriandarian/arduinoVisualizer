@@ -27,12 +27,12 @@
     - git clone https://github.com/adriandarian/arduinoVisualizer.git
     - Navigate to the folder  
       > `cd server/`
-    - `yarn install`
+    - `yarn install` or `npm install`
     - Open two terminals
         - First terminal
-            > `yarn start`
+            > `yarn start` or `npm run start`
         - Second terminal
-            > `yarn server`
+            > `yarn server` or `npm run server`
     - Visit **http://localhost:3000**
 
 ## License
