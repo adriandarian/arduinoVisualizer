@@ -1,18 +1,22 @@
 {
   "name": "visualizer",
   "version": "1.0.0",
-  "description": "Visualizing date from an arduino with NodeJS",
-  "main": "index.js",
-  "repository": "https://github.com/adriandarian/arduinoVisualizer.git",
-  "author": "Adrian Darian",
-  "license": "MIT",
   "private": true,
+  "description": "Visualizing date from an arduino with NodeJS",
+  "repository": "https://github.com/adriandarian/arduinoVisualizer.git",
+  "license": "MIT",
+  "author": "Adrian Darian",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "johnny-five": "^1.0.0",
+    "moment": "^2.23.0",
+    "node-dweetio": "^0.0.11",
+    "socket.io": "^2.2.0"
+  },
   "devDependencies": {
     "eslint": "^5.12.0",
     "eslint-config-google": "^0.11.0"
-  },
-  "dependencies": {
-    "johnny-five": "^1.0.0",
-    "node-dweetio": "^0.0.11"
   }
 }
