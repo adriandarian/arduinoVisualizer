@@ -13,8 +13,10 @@
   "author": "Adrian Darian",
   "main": "index.js",
   "scripts": {
-    "server-start": "node server.js",
-    "start": "node app.js"
+    "server": "node server.js",
+    "start": "node index.js",
+    "dev-server": "nodemon server.js",
+    "dev-start": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -22,6 +24,7 @@
     "johnny-five": "^1.0.0",
     "moment": "^2.23.0",
     "node-dweetio": "^0.0.11",
+    "nodemon": "^1.18.9",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {
