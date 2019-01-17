@@ -2,7 +2,7 @@
   "name": "visualizer",
   "version": "1.0.0",
   "private": true,
-  "description": "Visualizing date from an arduino with NodeJS",
+  "description": "Visualizing data from an arduino with NodeJS",
   "keywords": [
     "arduino",
     "iot",

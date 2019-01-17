@@ -1,6 +1,6 @@
-const express = required('express');
+const express = require('express');
 const app = express();
-const bodyParser = required('body-parser');
+const bodyParser = require('body-parser');
 const DweetClient = require('node-dweetio');
 const http = require('http').Server(app); // eslint-disable-line
 const io = require('socket.io')(http);
