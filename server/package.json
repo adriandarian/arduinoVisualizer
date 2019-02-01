@@ -16,19 +16,26 @@
     "server": "node server.js",
     "start": "node index.js",
     "dev-server": "nodemon server.js",
-    "dev-start": "nodemon index.js"
+    "dev-start": "nodemon index.js",
+    "dev": "nodemon service.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "canvas": "^2.3.1",
+    "connect": "^3.6.6",
     "express": "^4.16.4",
+    "fs": "^0.0.1-security",
     "johnny-five": "^1.0.0",
+    "jsdom": "^13.2.0",
     "moment": "^2.23.0",
+    "noble": "^1.9.1",
     "node-dweetio": "^0.0.11",
     "nodemon": "^1.18.9",
-    "socket.io": "^2.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-google": "^0.11.0"
+    "pixi.js": "^5.0.0-rc",
+    "serialport": "^7.1.4",
+    "serve-static": "^1.13.2",
+    "socket.io": "^2.2.0",
+    "webgl-obj-loader": "^2.0.3",
+    "xmlhttprequest": "^1.8.0"
   }
 }
