@@ -1,5 +1,7 @@
 # Arduino Visualizer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adriandarian/arduinoVisualizer.svg)](https://greenkeeper.io/)
+
 > This is a simple Node.js application to monitor realtime temperature from Arduino Uno R3. This project also contains the Morris charting library.
 
 ## Hardware Requirements
